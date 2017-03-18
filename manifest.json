@@ -16,12 +16,6 @@
     "512": "icons/icon-512.png"
   },
 
-  "applications": {
-    "gecko": {
-      "strict_min_version": "50.0.0"
-    }
-  },
-
   "permissions": [
     "webNavigation",
     "storage"
@@ -29,7 +23,6 @@
 
   "content_scripts": [
     {
-      "run_at": "document_start",
       "matches": ["*://*.abril.com.br/*"],
       "js": ["unblock.js"]
     }
