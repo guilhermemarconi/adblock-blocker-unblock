@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Desbloqueio do bloqueador de anúncios em sites da Abril",
+  "name": "Desbloqueio do bloqueador de anúncios da Abril",
   "version": "1.0",
   "description": "Desativa o bloqueador de AdBlocks da Veja, Exame, e os outros sites da Abril.",
 
