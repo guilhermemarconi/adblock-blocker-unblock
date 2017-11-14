@@ -1,5 +1,5 @@
-var interval = window.setTimeout(removeBlocker, 5000);
-
+var interval = window.setInterval(removeBlocker, 1000);
+var intervalCount = 0;
 function removeBlocker() {
   var body = document.body;
 
@@ -9,4 +9,16 @@ function removeBlocker() {
     body.classList.remove('tp-modal-open');
     window.clearInterval(interval);
   }
+
+  var loginBarreiraGlobo = document.getElementById('login-barreira');
+
+  if (loginBarreiraGlobo) {
+    loginBarreiraGlobo.remove();
+    body.style.overflow = 'scroll';
+    window.clearInterval(interval);
+  }
+
+  if (++intervalCount > 15) {
+    window.clearInterval(interval);
+  };
 }
