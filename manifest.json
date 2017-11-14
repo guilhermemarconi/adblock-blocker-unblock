@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Remove bloqueador de anúncios da Abril",
-  "version": "1.0",
+  "version": "1.1.0",
   "description": "Desativa o bloqueador de AdBlocks da Veja, Exame, e os outros sites da Abril.",
 
   "icons": {
